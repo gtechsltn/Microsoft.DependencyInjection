@@ -48,6 +48,4 @@ services.AddSingletonFromAssembly(nameof(Assembly), o => o.Matching = true);
 services.AddTransientFromAssembly(nameof(Assembly), o => o.Matching = true);
 ```
 
-## Package Name: BC.Microsoft.DependencyInjection.Plus`
-
-
+## Package Name: BC.Microsoft.DependencyInjection.Plus
